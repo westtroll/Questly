@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98815EE83009738F00ED843E /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98815EE73009738F00ED843E /* AppIntents.framework */; };
+		98815EE93009740200ED843E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CB77F22FFA5E4F00F1ACCD /* WidgetKit.framework */; };
+		98815EEA3009740900ED843E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CB77F42FFA5E4F00F1ACCD /* SwiftUI.framework */; };
+		98815EEB3009741000ED843E /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98815EE73009738F00ED843E /* AppIntents.framework */; };
+		98CB77F32FFA5E4F00F1ACCD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CB77F22FFA5E4F00F1ACCD /* WidgetKit.framework */; };
+		98CB77F52FFA5E4F00F1ACCD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98CB77F42FFA5E4F00F1ACCD /* SwiftUI.framework */; };
+		98CB78042FFA5E5000F1ACCD /* QuestlyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 98CB77F02FFA5E4E00F1ACCD /* QuestlyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98CB78022FFA5E5000F1ACCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CB77792FF812EE00F1ACCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CB77EF2FFA5E4E00F1ACCD;
+			remoteInfo = DayQuestWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		98CB78092FFA5E5000F1ACCD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				98CB78042FFA5E5000F1ACCD /* QuestlyWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		98815EE73009738F00ED843E /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = SDKROOT; };
+		98CB77812FF812EE00F1ACCD /* Questly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CB77F02FFA5E4E00F1ACCD /* QuestlyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QuestlyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CB77F22FFA5E4F00F1ACCD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		98CB77F42FFA5E4F00F1ACCD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		98CB780B2FFA5F2B00F1ACCD /* QuestlyWidgetExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuestlyWidgetExtensionDebug.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		980347DF2FFA697A008C2FFC /* Exceptions for "QuestlyWidget" folder in "Questly" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				PomodoroActivityAttributes.swift,
+				PomodoroIntents.swift,
+				PomodoroLiveActivity.swift,
+				WidgetSnapshot.swift,
+			);
+			target = 98CB77802FF812EE00F1ACCD /* Questly */;
+		};
+		98CB77932FF812EF00F1ACCD /* Exceptions for "Questly" folder in "Questly" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = 98CB77802FF812EE00F1ACCD /* Questly */;
+		};
+		98CB78082FFA5E5000F1ACCD /* Exceptions for "QuestlyWidget" folder in "QuestlyWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 98CB77EF2FFA5E4E00F1ACCD /* QuestlyWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		98CB77832FF812EE00F1ACCD /* Questly */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				98CB77932FF812EF00F1ACCD /* Exceptions for "Questly" folder in "Questly" target */,
+			);
+			path = Questly;
+			sourceTree = "<group>";
+		};
+		98CB77F62FFA5E4F00F1ACCD /* QuestlyWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				980347DF2FFA697A008C2FFC /* Exceptions for "QuestlyWidget" folder in "Questly" target */,
+				98CB78082FFA5E5000F1ACCD /* Exceptions for "QuestlyWidget" folder in "QuestlyWidgetExtension" target */,
+			);
+			path = QuestlyWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98CB777E2FF812EE00F1ACCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98815EEB3009741000ED843E /* AppIntents.framework in Frameworks */,
+				98815EEA3009740900ED843E /* SwiftUI.framework in Frameworks */,
+				98815EE93009740200ED843E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CB77ED2FFA5E4E00F1ACCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CB77F52FFA5E4F00F1ACCD /* SwiftUI.framework in Frameworks */,
+				98CB77F32FFA5E4F00F1ACCD /* WidgetKit.framework in Frameworks */,
+				98815EE83009738F00ED843E /* AppIntents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98CB77782FF812EE00F1ACCD = {
+			isa = PBXGroup;
+			children = (
+				98CB780B2FFA5F2B00F1ACCD /* QuestlyWidgetExtensionDebug.entitlements */,
+				98CB77832FF812EE00F1ACCD /* Questly */,
+				98CB77F62FFA5E4F00F1ACCD /* QuestlyWidget */,
+				98CB77F12FFA5E4F00F1ACCD /* Frameworks */,
+				98CB77822FF812EE00F1ACCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98CB77822FF812EE00F1ACCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98CB77812FF812EE00F1ACCD /* Questly.app */,
+				98CB77F02FFA5E4E00F1ACCD /* QuestlyWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98CB77F12FFA5E4F00F1ACCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98815EE73009738F00ED843E /* AppIntents.framework */,
+				98CB77F22FFA5E4F00F1ACCD /* WidgetKit.framework */,
+				98CB77F42FFA5E4F00F1ACCD /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98CB77802FF812EE00F1ACCD /* Questly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CB77942FF812EF00F1ACCD /* Build configuration list for PBXNativeTarget "Questly" */;
+			buildPhases = (
+				98CB777D2FF812EE00F1ACCD /* Sources */,
+				98CB777E2FF812EE00F1ACCD /* Frameworks */,
+				98CB777F2FF812EE00F1ACCD /* Resources */,
+				98CB78092FFA5E5000F1ACCD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98CB78032FFA5E5000F1ACCD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				98CB77832FF812EE00F1ACCD /* Questly */,
+			);
+			name = Questly;
+			packageProductDependencies = (
+			);
+			productName = DayQuest;
+			productReference = 98CB77812FF812EE00F1ACCD /* Questly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98CB77EF2FFA5E4E00F1ACCD /* QuestlyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CB78052FFA5E5000F1ACCD /* Build configuration list for PBXNativeTarget "QuestlyWidgetExtension" */;
+			buildPhases = (
+				98CB77EC2FFA5E4E00F1ACCD /* Sources */,
+				98CB77ED2FFA5E4E00F1ACCD /* Frameworks */,
+				98CB77EE2FFA5E4E00F1ACCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				98CB77F62FFA5E4F00F1ACCD /* QuestlyWidget */,
+			);
+			name = QuestlyWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = DayQuestWidgetExtension;
+			productReference = 98CB77F02FFA5E4E00F1ACCD /* QuestlyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98CB77792FF812EE00F1ACCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					98CB77802FF812EE00F1ACCD = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					98CB77EF2FFA5E4E00F1ACCD = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 98CB777C2FF812EE00F1ACCD /* Build configuration list for PBXProject "Questly" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98CB77782FF812EE00F1ACCD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 98CB77822FF812EE00F1ACCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98CB77802FF812EE00F1ACCD /* Questly */,
+				98CB77EF2FFA5E4E00F1ACCD /* QuestlyWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98CB777F2FF812EE00F1ACCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CB77EE2FFA5E4E00F1ACCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98CB777D2FF812EE00F1ACCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CB77EC2FFA5E4E00F1ACCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98CB78032FFA5E5000F1ACCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98CB77EF2FFA5E4E00F1ACCD /* QuestlyWidgetExtension */;
+			targetProxy = 98CB78022FFA5E5000F1ACCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98CB77952FF812EF00F1ACCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Questly/QuestlyDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TA2R77VSQA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Questly/Resources/Info.plist;
+				INFOPLIST_KEY_NSCalendarsWriteOnlyAccessUsageDescription = "DayQuest добавляет задачи с датой в твой календарь";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beta.study1.DayQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98CB77962FF812EF00F1ACCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Questly/QuestlyDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Questly/Resources/Info.plist;
+				INFOPLIST_KEY_NSCalendarsWriteOnlyAccessUsageDescription = "DayQuest добавляет задачи с датой в твой календарь";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beta.study1.DayQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98CB77972FF812EF00F1ACCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98CB77982FF812EF00F1ACCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98CB78062FFA5E5000F1ACCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = QuestlyWidgetExtensionDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TA2R77VSQA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuestlyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Questly;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beta.study1.DayQuest.DayQuestWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WIDGET_EXTENSION;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98CB78072FFA5E5000F1ACCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = QuestlyWidgetExtensionDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuestlyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Questly;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = beta.study1.DayQuest.DayQuestWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WIDGET_EXTENSION;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98CB777C2FF812EE00F1ACCD /* Build configuration list for PBXProject "Questly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CB77972FF812EF00F1ACCD /* Debug */,
+				98CB77982FF812EF00F1ACCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CB77942FF812EF00F1ACCD /* Build configuration list for PBXNativeTarget "Questly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CB77952FF812EF00F1ACCD /* Debug */,
+				98CB77962FF812EF00F1ACCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CB78052FFA5E5000F1ACCD /* Build configuration list for PBXNativeTarget "QuestlyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CB78062FFA5E5000F1ACCD /* Debug */,
+				98CB78072FFA5E5000F1ACCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98CB77792FF812EE00F1ACCD /* Project object */;
+}
